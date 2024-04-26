@@ -7,7 +7,6 @@ import Page1 from './Component/Page1';
 import Page2 from './Component/Page2';
 import Cart from './Component/Cart';
 import Contact from './Component/Contact';
-import Aboutus from './Component/Aboutus';
 
 function App() {
   return (
@@ -17,7 +16,6 @@ function App() {
         <Route exact path='/page1' element={<Page1 />} />
         <Route exact path='/page2' element={<Page2 />} />
         <Route exact path='/cart' element={<Cart />} />
-        <Route exact path='/aboutus' element={<Aboutus />} />
         <Route exact path='/contact' element={<Contact />} />
 
       </Routes>
