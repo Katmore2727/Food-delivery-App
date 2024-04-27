@@ -1,0 +1,266 @@
+header{
+    height: 40vh;
+    width: 100%;
+    background-image: url(../Assets/bg2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(173, 154, 154, 0.422);
+    font-family: 'bereville';
+}
+.main1{
+    background-color: rgba(173, 154, 154, 0.422);
+    height: 40vh;
+}
+header h1{
+    font-size: 100px;
+    font-weight: bold;
+}
+header p{
+    font-size: 40px;
+    font-weight: bold;
+    margin-right: 20vw;
+    color: orange;
+}
+header button{
+    border-radius: 5px;
+    height: 5vh;
+    border: none;
+    /* background-color: rgba(180, 159, 159, 0.411); */
+    background-color: rgba(50, 46, 40, 0.956);
+    font-weight: bold;
+    /* border: 1px solid; */
+    /* color: white; */
+    margin-right: 23vw;
+    color: white;
+}
+.blur{
+    backdrop-filter: blur(5px);
+}
+.main2{
+    width: 90%;
+    margin-left: 5%;
+    background-image: url(../Assets/f1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 120vh;
+    margin-bottom: 50px;
+    
+}
+.gridarea{
+    display: grid;
+    /* grid-template-areas:'m1 m1 m2 m3 m3'
+                           'm4 m5 m5 m5 m6'
+                           'm7 m7 m8 m9 m9' ; */
+    grid-template-rows: 180px 1fr 1fr ;
+    grid-template-columns: 90px 1fr 1fr 1fr 1fr ;
+    gap: 20px;
+    height: 120vh;
+    width: 80%;
+    margin-left: 10%;
+    padding-top: 5%;
+    /* background-color: rgba(255, 255, 255, 0.679); */
+    padding-bottom: 5%;
+}
+.food{
+    font-family:'courier';
+    font-weight: bold;
+    font-size: 40px;
+    color: white;
+    /* position: absolute; */
+    align-items: center;
+    vertical-align: middle;
+}
+
+.foodbtn{
+    position: absolute;
+    top: 60%;
+    left: 40%;
+    border: none;
+    height: 40px;
+    width: 100px;
+    border-radius: 5px;
+    background-color: orange;
+    font-weight: bold;
+    /* display: none; */
+    opacity: 0;
+    transition: opacity 0.5s ease, transform 0.5s ease; /* Apply transition effect */
+    transform: translateY(50%);
+    z-index: 2;
+}
+.menuopacity{
+    background-color: rgba(168, 154, 154, 0.399);
+    height: 180px;
+    /* z-index: 0; */
+}
+.menuopacity1{
+    background-color: rgba(168, 154, 154, 0.399);
+    height:260px;
+}
+.m1{
+    /* background-color: red; */
+    grid-column: span 2;
+    background-image: url(../Assets/north.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;
+    position: relative;
+    
+}
+.m1:hover .foodbtn{
+    /* display: block; */
+    opacity: 1;
+    transform: translateY(-30%) scale(1.1);    
+}
+.m2:hover .foodbtn{
+    /* display: block; */
+    opacity: 1;
+    transform: translateY(-30%) translateX(-20%) scale(1.1);    
+}
+.m3:hover .foodbtn{
+    /* display: block; */
+    opacity: 1;
+    transform: translateY(-30%) translateX(-20%) scale(1.1);    
+}
+.m4:hover .foodbtn{
+    /* display: block; */
+    opacity: 1;
+    transform: translateY(-30%) translateX(-20%) scale(1.1);    
+}
+.m5:hover .foodbtn{
+    /* display: block; */
+    opacity: 1;
+    transform: translateY(-30%) translateX(-20%) scale(1.1);    
+}
+.m6:hover .foodbtn{
+    /* display: block; */
+    opacity: 1;
+    transform: translateY(-30%) translateX(-20%) scale(1.1);    
+    z-index: 3;
+}
+.m7:hover .foodbtn{
+    /* display: block; */
+    opacity: 1;
+    transform: translateY(-30%) translateX(-20%) scale(1.1);    
+}
+.m8:hover .foodbtn{
+    /* display: block; */
+    opacity: 1;
+    transform: translateY(-30%) translateX(-20%) scale(1.1);    
+}
+.m9:hover .foodbtn{
+    /* display: block; */
+    opacity: 1;
+    transform: translateY(-30%) translateX(-20%) scale(1.1);    
+}
+.m2{
+    /* background-color: rgb(143, 122, 122); */
+    grid-column: 3 ;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzhnUIENPKVwOvnKNtbuFo-iTmazJRWl9L8A&s);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;
+    position: relative;
+}
+.m3{
+    /* background-color: rgb(0, 255, 4); */
+    grid-column:4 /span 5;
+    background-image: url(../Assets/M.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;
+    position: relative;
+
+    
+}.m4{
+    /* background-color: rgb(47, 154, 143); */
+    grid-column:1 /span 2;
+    background-image: url(../Assets/h.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;
+    position: relative;
+
+    
+    
+}.m5{
+    /* background-color: rgb(0, 0, 255); */
+    grid-column: 3 /span 2;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHcOUOASuxiZqhTtEhqK0UG5V3JEoQvA-_yA&s);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;
+    position: relative;
+
+    
+}.m6{
+    /* background-color: red; */
+    grid-column: 5 /span 4;
+    background-image: url(../Assets/food.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;
+    position: relative;
+    z-index: 3;
+
+    
+}.m7{
+    /* background-color: red; */
+    grid-column: 1 /span 2;
+    background-image: url(../Assets/nonveg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;
+    position: relative;
+
+    
+}.m8{
+    /* background-color: red; */
+    grid-column: 3   ;
+    background-image: url(../Assets/r.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;
+    position: relative;
+    
+}.m9{
+    /* background-color: red; */
+    grid-column:4 /span 5;
+    background-image: url(../Assets/c.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;
+    position: relative;
+
+    
+
+}
+
+
+.menuOrder{
+    font-family: fantasy;
+    color: rgba(0, 0, 0, 0.63);
+    background-color: rgba(255, 255, 255, 0.201);
+    font-size: 100px;
+    rotate: -30deg;
+    position: absolute;
+    width: 160%;
+    right: 550px;
+    z-index: 1;
+}
+.menuOrder1{
+    font-family: fantasy;
+    font-size: 100px;
+    text-shadow: 5px 10px  rgb(144, 131, 131);
+    color: orange;
+}
