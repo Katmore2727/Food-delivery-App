@@ -17,10 +17,9 @@ export default function Navbar() {
       <a className="navbar-brand text-dark" href="#">Food-Delivery</a>
     </div>
     <ul className="nav navbar-nav">
-      <li className="active"><Link to="/">Home</Link></li>
+      <li ><Link to="/">Home</Link></li>
       <li><Link to="/page1">Gallery</Link></li>
       <li><Link to="/page2">Menu</Link></li>
-      <li><Link to="/aboutus">About us</Link></li>
       <li><Link to="/contact">Contact</Link></li>
     </ul>
     <form className="navbar-form navbar-left" action="/action_page.php">

@@ -1,5 +1,64 @@
 .container1 {
-    background-color:burlywood;
-    height: 89vh;
-    width: 218.3vh;
+    /* background-color:burlywood; */
+    height: 900px;
+    width: 100%;
+    position: relative;
+    overflow-x: hidden;
+    background-image: url(../Assets/bg3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: -20px;
 }
+.bg1 {
+    /* background-color: aqua; */
+    height: 400px;
+    width: 400px;
+    position: absolute;
+    top: 2%;
+    left: 1%;
+    
+}
+
+.bg2 {
+    /* background-color: aqua; */
+    height: 400px;
+    width: 400px;
+    position: absolute;
+    top: 2%;
+    right: 1%;
+
+}
+.bg3 {
+    /* background-color: aqua; */
+    height: 400px;
+    width: 400px;
+    position: absolute;
+    bottom: 2%;
+    left: 1%;
+
+}
+.bg4 {
+    /* background-color: aqua; */
+    height: 400px;
+    width: 400px;
+    position: absolute;
+    bottom: 2%;
+    right: 1%;
+
+}
+.container6 {
+    /* background-color: aqua; */
+    height: 400px;
+    width: 400px;
+    position: absolute;
+    top: 5%;
+    right: 37.5%;
+
+}
+
+.word {
+    font-size: 110px;
+    font-style: italic;
+}
+

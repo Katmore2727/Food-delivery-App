@@ -2,7 +2,7 @@ import React from "react";
 import Navbar from "./Navbar"
 import './Home.css'
 import f2 from '../Assets/f2.jpg'
-import f3 from '../Assets/f3.jpg'
+// import f3 from '../Assets/f3.jpg'
 
 export default function Home() {
     return(

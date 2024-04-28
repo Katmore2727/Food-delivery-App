@@ -1,19 +1,18 @@
+// import React,{ useState } from "react";
 import React from "react";
 // import Header from "./navbar/Header";
 import Navbar from "./Navbar";
 import './Page2.css';
-import Cart from './Cart';
 
-function Menu(){
+export function Menu(){
     return(
         <>
-        <div>
-            <Navbar></Navbar>
+        <Navbar></Navbar>
             <header>
                 <div className="main1">
                 <h1>Find Your Best Food </h1>
                 <p>Order And Eat</p>
-                <a><button>Check out menu</button></a>
+                {/* <a><button>Check out menu</button></a> */}
                 </div>
             </header>
             <h1 className="menuOrder">ORDER ONLINE ORDER ONLINE ORDER ONLINE</h1>
@@ -83,7 +82,7 @@ function Menu(){
                 </div>
 
             </div>
-        </div>
+    
 
         </>  
     )
